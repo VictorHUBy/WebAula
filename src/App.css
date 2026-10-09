@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ede4e4;
+  color: #222;
+}
+
+.perfil {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.contador {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  color: red;
+}
+
+.painel {
+  width: 100%;
+  max-width: 1000px;
+  padding: 30px;
+  text-align: center;
+}
+
+.lista-perfis {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.lista-perfis section {
+  flex: 1;
+  min-width: 0;
+  border-radius: 12px;
+  padding: 20px;
+  background: #1565c0;
+  border: 2px solid #525559;
+}
+
+.imagemDePerfil img {
+  width: 120px;
+  height: 120px;
+  border-radius: 80%;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.nome {
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.descricao {
+  color: #ffffff;
+  line-height: 1.4;
+  text-align: center;
+  text-justify: auto;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1565c0;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px;
+}
+
+nav button {
+  background-color: white;
+  color: #1565c0;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+}
+
+nav button:hover {
+  background-color: gray;
+}
+
+.selo {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.selo.disponivel {
+  background: #c8e6c9;
+  color: #1b5e20;
+}
+
+.semEstoque {
+  background: #ffcdd2;
+  color: #b71c1c;
+}
+
+.botao-comprar {
+  display: block;
+  margin: 12px auto 0;
+  background-color: #0d47a1;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+}
+
+.menu {
+  display: block;
+  margin: 12px auto 0;
+  background-color: #0d47a1;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+}
+
+.menu1 {
+  display: block;
+  margin: 12px auto 0;
+  background-color: #0d47a1;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+}
