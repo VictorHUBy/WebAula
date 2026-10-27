@@ -1,37 +1,38 @@
 # WebAula
 
-Simple React app that shows a food menu and a counter.
+Aplicação de estudo feita com React. A interface apresenta itens de alimentação e uma página de contador.
 
-You can:
-- See food items with name, description, image and availability
-- Mark items as bought
-- Add new food items
-- Switch to a counter page to increase or decrease a number
+## Funcionalidades
 
-## Technologies
+- Exibe itens com nome, descrição, imagem e disponibilidade.
+- Permite marcar itens como comprados.
+- Permite adicionar itens à lista.
+- Tem uma página de contador, com ações para aumentar e diminuir o número.
 
-- React 19.2.8
-- React DOM 19.2.8
-- Vite 8.3.0
-- ESLint (for code checks)
+## Tecnologias
 
-## How to run
+Versões declaradas no `package.json`:
+- React `^19.2.8`
+- React DOM `^19.2.8`
+- Vite `^8.3.0`
+- ESLint `^10.10.0`
 
-1. Install dependencies:
+## Como executar
+
+É necessário ter Node.js e npm instalados.
+
 ```bash
 npm install
-```
-
-2. Start the development server:
-```bash
 npm run dev
 ```
 
-Open the link that appears in the terminal (usually http://localhost:5173).
+Abra no navegador o endereço indicado pelo Vite no terminal.
 
-## Available scripts
+## Comandos disponíveis
 
-- `npm run dev` → starts the app in development mode
-- `npm run build` → creates the production version
-- `npm run preview` → shows the production version locally
-- `npm run lint` → checks the code with ESLint
+- `npm run dev`: inicia o servidor de desenvolvimento.
+- `npm run build`: gera a versão de produção.
+- `npm run preview`: permite visualizar localmente a versão gerada.
+- `npm run lint`: executa as verificações do ESLint.
+
+[ADICIONAR PRINT AQUI]
