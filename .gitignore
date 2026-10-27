@@ -1,3 +1,27 @@
-﻿node_modules/
+# Dependências
+node_modules/
+
+# Arquivos compactados
 *.zip
-*.zip
+
+# Variáveis de ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Build e arquivos locais
+dist/
+dist-ssr/
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Sistema e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
